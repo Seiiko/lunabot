@@ -1,0 +1,42 @@
+{
+  "name": "novabot",
+  "version": "1.0.0",
+  "description": "Bot specifically built for the Discord server \"Luminus\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seiiko/novabot.git"
+  },
+  "keywords": [
+    "nova",
+    "bot",
+    "discord",
+    "luminus"
+  ],
+  "author": "Seiko Eleanor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seiiko/novabot/issues"
+  },
+  "homepage": "https://github.com/Seiiko/novabot#readme",
+  "dependencies": {
+    "booru": "^0.4.0",
+    "cat-facts": "^1.0.2",
+    "discord.js": "^11.3.0",
+    "discord.js-musicbot-addon": "^1.10.3",
+    "dog-facts": "^1.0.3",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fs": "0.0.1-security",
+    "motivational-quotes": "^1.1.0",
+    "opusscript": "0.0.6",
+    "random-boobs": "^1.1.0",
+    "random-butt": "^1.0.0",
+    "random-puppy": "^1.1.0",
+    "random-vagina": "^1.0.0",
+    "ytdl-core": "^0.20.2"
+  }
+}

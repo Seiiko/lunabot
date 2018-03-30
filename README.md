@@ -1,0 +1,1 @@
+Bot specifically built for the Discord server "Luminus".
