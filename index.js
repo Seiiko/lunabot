@@ -81,7 +81,7 @@ const music = new Music(client, {
 
 // SET BOT STATUS
 client.on('ready', () => { // When the bot is ready.
-    client.user.setPresence({ game: { name: 'with your Universe', type: 0 } }); // Set the bot's status.
+    client.user.setPresence({ game: { name: 'Project Luna', type: 0 } }); // Set the bot's status.
 });
     
 // WELCOME NEW MEMBERS
@@ -91,8 +91,8 @@ client.on("guildMemberAdd", member => { // Listener event: user joining the serv
   const welcomeChannel = client.channels.find("name", "general-chat") // Create a variable referring to the selected channel.
 
   // Sending the messages.
-  welcomeChannel.send("<@!"+member.user.id+">  |  **Welcome to the Stashine Beacon Community Server!**\nWe hope you will be having a nice time here. Before you start chatting, we would like you to check out the #information channel!");
-  member.send("*Welcome to the Stashine Beacon Community Server!**\nWe hope you will be having a nice time here.");
+  welcomeChannel.send("<@!"+member.user.id+">  |  **Welcome to the Starshine Beacon Community Server!**\nWe hope you will be having a nice time here. Before you start chatting, we would like you to check out the #information channel!");
+  member.send("*Welcome to the Starshine Beacon Community Server!**\nWe hope you will be having a nice time here.");
     
 });
 
